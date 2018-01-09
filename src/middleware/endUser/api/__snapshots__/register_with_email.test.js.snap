@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email registration enqueues confirm-registration email when successful 1`] = `
+Object {
+  "from": "test.foo.bar <no-reply@foo.bar>",
+  "language": "en",
+  "payload": Object {
+    "confirmationUrl": "https://test.foo.bar/confirm-email-with-token/fb5f5852c8006a90e3eb9321ab840dbe15f2f92118fac2ea3b2718e99a70cca0",
+    "domainName": "test.foo.bar",
+    "pin": "abc12",
+    "user": Object {
+      "_id": "mock-id",
+      "avatar": undefined,
+      "bio": undefined,
+      "email": "test@foo.bar",
+      "firstname": undefined,
+      "gender": undefined,
+      "lastname": undefined,
+      "registered": "2017-08-14",
+      "role": "test-role",
+      "username": "test-user",
+      "verified": undefined,
+    },
+  },
+  "to": "test@foo.bar",
+  "type": "confirm-registration",
+}
+`;
+
+exports[`email registration returns serialized new-user as body when successful 1`] = `
+Object {
+  "_id": "mock-id",
+  "avatar": undefined,
+  "bio": undefined,
+  "email": "test@foo.bar",
+  "firstname": undefined,
+  "gender": undefined,
+  "lastname": undefined,
+  "registered": "2017-08-14",
+  "role": "test-role",
+  "username": "test-user",
+  "verified": undefined,
+}
+`;

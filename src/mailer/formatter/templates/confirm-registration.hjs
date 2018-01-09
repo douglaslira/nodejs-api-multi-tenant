@@ -1,0 +1,7 @@
+<div>
+  <h1>{{#i18n}}confirm-registration.welcome{{/i18n}} {{domainName}}</h1>
+  <p>{{#i18n}}confirm-registration.enter-your-pin{{/i18n}}</p>
+  <p><span class="pin">{{pin}}</span></p>
+  <p>{{#i18n}}confirm-registration.click-link{{/i18n}}</p>
+  <a href="{{confirmationUrl}}">{{confirmationUrl}}</a>
+</div>

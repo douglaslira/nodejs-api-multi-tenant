@@ -1,0 +1,15 @@
+{
+  "confirm-registration": {
+    "subject": "Confirm Registration",
+    "welcome": "Welcome to ",
+    "enter-your-pin": "Please type this pin into the registration form to complete your registration:",
+    "click-link": "Alternatively, please click the link below to complete your registration.",
+    "expires-soon": "Both the link and the PIN will expire within 24 hours."
+  },
+  "reset-password": {
+    "subject": "Reset Password",
+    "welcome": "Welcome to ",
+    "click-link": "Please click the link to reset your password",
+    "expires-soon": "This link will expire within 72 hours."
+  }
+}

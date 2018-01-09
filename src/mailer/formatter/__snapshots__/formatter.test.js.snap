@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formats confirmation email correctly 1`] = `
+"<div style=\\"font-family: arial; direction: ltr;\\">
+  <h1>Welcome to  imaginary-domain.com</h1>
+  <p>Please type this pin into the registration form to complete your registration:</p>
+  <p><span class=\\"pin\\" style=\\"font-size: 36px;\\"></span></p>
+  <p>Alternatively, please click the link below to complete your registration.</p>
+  <a href=\\"https://imaginary-domain.com/confirm-registration?jwt=abcd.1234.y1z2\\">https://imaginary-domain.com/confirm-registration?jwt=abcd.1234.y1z2</a>
+</div>
+"
+`;

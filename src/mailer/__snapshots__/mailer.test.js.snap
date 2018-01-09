@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enqueue enqueues a mail 1`] = `
+Object {
+  "from": "system@newssocial.co.uk",
+  "payload": Object {
+    "foo": "bar",
+    "whiz": "bang",
+  },
+  "to": "joebloggs@somedomain.com",
+  "type": "some-mail-type",
+}
+`;
